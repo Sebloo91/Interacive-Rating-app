@@ -1,0 +1,151 @@
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+  background-color: rgb(44, 46, 55);
+  border-radius: 40px;
+  height: 500px;
+  width: 500px;
+  margin-top: 100px;
+}
+
+.star{
+  background-color: rgb(57, 63, 87);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+  .title{
+  color: white;
+  font-size: 30px;
+  font-family: system-ui;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.text-1{
+  color: rgb(143, 141, 141);
+  font-family: system-ui;
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 360px;
+}
+
+button{
+  height: 60px;
+  width: 60px;
+  border-radius: 35px;
+  color: rgb(143, 141, 141);
+  font-family: system-ui;
+  font-size: 20px;
+  background-color: rgb(57, 63, 87);
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(255, 162, 0);
+  color: white;
+}
+
+button:focus{
+  background-color:  rgb(110, 110, 110);
+  color: white;
+}
+
+
+.submit-button{
+  width: 420px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+  border: none;
+  background-color: rgb(255, 162, 0);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: system-ui;
+  font-size: 20px; 
+  margin-left: 43px;
+
+}
+
+.thanks{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 70px;
+  width: 40%;
+}
+
+.hide{
+display:none
+}
+
+/*THANK PAGE*/
+
+.result{
+  background-color: rgb(57, 63, 87);
+  max-width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgb(255, 162, 0);
+  font-family: system-ui;
+  font-size: 20px;
+}
+
+.title-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 30px;
+  font-family: system-ui;
+}
+
+.text{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  width: 360px;
+  margin-top: 0px;
+  color: rgb(143, 141, 141);
+  font-family: system-ui;
+
+}
